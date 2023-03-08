@@ -1,0 +1,66 @@
+
+.profileSection {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.profileContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin-top: 1rem;
+}
+
+.profileContainer img:hover {
+  transform: scale(1.07);
+  transition: 0.35s;
+}
+
+.titleContainer {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 2rem; 
+}
+
+.titleContainer > h4 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  transition: 0.35s;
+}
+
+.titleContainer > p {
+  width: 80%;
+  font-weight: 400;
+  font-size: 1.05rem;
+  text-align: center;
+  transition: 0.35s;
+}
+
+.titleContainer > p:hover, h4:hover {
+  transform: scale(1.07);
+  transition: 0.35s;
+}
+
+.avatarSection {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.avatarSection > img {
+  margin-top: 1rem;
+  border-radius: 999px;
+  padding: 1.8px;
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+  border: 3px solid var(--saffron-weak);
+  transition: 0.35s;
+}

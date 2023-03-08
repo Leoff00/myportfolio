@@ -1,0 +1,24 @@
+:root {
+  --saffron: #EEC643;
+  --saffron-weak: #e6d089;
+  --raisin-black-plus-weak: #313131;
+  --raisin-black-weak: #252525;
+  --raisin-black: #2e2e2e;
+  --raisin-black-strong: #202020;
+  --auto-flashed-white: #EEF0F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: var(--auto-flashed-white);
+  font-size: 1.1rem;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+
+
+

@@ -1,0 +1,65 @@
+header {
+   width: 100%;
+   display: flex;
+   background-color: var(--raisin-black-weak);
+   border-bottom: 0.5px solid var(--auto-flashed-white);
+
+   height: 124px;
+}
+
+.emailSection {
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   gap: 1rem;
+}
+
+.mailboxCircle {
+   border-radius: 999px;
+   border: 1.9px solid var(--auto-flashed-white);
+   padding: 0.4rem;
+}
+
+.mailboxCircle > img {
+   width: 35px;
+   height: 35px;
+   margin-bottom: -8px;
+}
+
+.emailSection > a {
+   text-decoration: none;
+   font-size: 0.95rem;
+   font-weight: 700;
+}
+
+.linkSection {
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   gap: 1rem;
+}
+
+.linkSection > a {
+   text-decoration: none;
+   font-weight: 600;
+   transition: 0.35s;
+
+}
+
+.linkSection > a,b {
+   color: var(--auto-flashed-white);
+}
+
+
+/* 
+Animations
+*/
+
+.linkSection > a:hover {
+   transition: 0.35s;
+   transform: scale(1.07);
+}
