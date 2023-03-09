@@ -1,5 +1,4 @@
 .profileAndTechsSection {
   background-color: var(--raisin-black-strong);
-  height: 100dvh;
-
+  height: auto;
 }

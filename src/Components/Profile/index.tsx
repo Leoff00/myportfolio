@@ -5,15 +5,15 @@ import { Fade } from "react-awesome-reveal";
 function Profile() {
   return (
     <>
-      <Fade big cascade damping={0.3}>
+      <Fade big cascade duration={1000}>
         <section className="profileSection">
           <div className="profileContainer">
             <section className="titleContainer">
               <h4>Olá, me chamo Leonardo Ferreira. 👋</h4>
               <p>
-                Seja bem-vindo ao meu portfolio! Sou um desenvolvedor full-stack
-                & full-cycle atualmente especializado no ecossistema Javascript
-                e Golang com foco em criar aplicações digitais para solucionar
+                Seja bem-vindo ao meu portfolio! Sou desenvolvedor full-stack &
+                full-cycle atualmente especializado no ecossistema Javascript e
+                Golang com foco em criar aplicações digitais para solucionar
                 problemas do cotidiano.
               </p>
             </section>

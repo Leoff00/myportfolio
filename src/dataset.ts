@@ -1,15 +1,5 @@
-import nodejs from "./assets/techs/nodejs.svg";
-import ts from "./assets/techs/ts.svg";
 import expressjs from "./assets/techs/expressjs.svg";
-import nestjs from "./assets/techs/nestjs.svg";
-import react from "./assets/techs/react.svg";
 import nextjs from "./assets/techs/nextjs.svg";
-import golang from "./assets/techs/golang.svg";
-import docker from "./assets/techs/docker.svg";
-import aws from "./assets/techs/aws.svg";
-import postgres from "./assets/techs/postgres.svg";
-import mongodb from "./assets/techs/mongodb.svg";
-import graphql from "./assets/techs/graphql.svg";
 
 export interface CardProps {
   title?: string;
@@ -31,21 +21,73 @@ const SocialLinks: SocialLinkProps = {
 
 const dataSet: Array<CardProps> = [
   {
-    imageUrl: nodejs,
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     title: "NodeJS",
     alt: "NodeJS",
   },
-  { imageUrl: ts, title: "Typescript", alt: "Typescript" },
+  {
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+    title: "Typescript",
+    alt: "Typescript",
+  },
+  {
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
+    title: "Golang",
+    alt: "Golang",
+  },
+
   { imageUrl: expressjs, title: "ExpressJS", alt: "ExpressJS" },
-  { imageUrl: nestjs, title: "NestJS", alt: "NestJS" },
-  { imageUrl: react, title: "ReactJS", alt: "ReactJS" },
-  { imageUrl: nextjs, title: "NextJS", alt: "NextJS" },
-  { imageUrl: golang, title: "Golang", alt: "Golang" },
-  { imageUrl: docker, title: "Docker", alt: "Docker" },
-  { imageUrl: postgres, title: "Postgres", alt: "Postgres" },
-  { imageUrl: mongodb, title: "MongoDB", alt: "MongoDB" },
-  { imageUrl: graphql, title: "GraphQL", alt: "GraphQL" },
-  { imageUrl: aws, title: "AWS", alt: "AWS" },
+  {
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+    title: "NestJS",
+    alt: "NestJS",
+  },
+  {
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    title: "ReactJS",
+    alt: "ReactJS",
+  },
+  {
+    imageUrl: nextjs,
+    title: "NextJS",
+    alt: "NextJS",
+  },
+
+  {
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg",
+    title: "Docker",
+    alt: "Docker",
+  },
+  {
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
+    title: "Postgres",
+    alt: "Postgres",
+  },
+  {
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    title: "MongoDB",
+    alt: "MongoDB",
+  },
+  {
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+    title: "GraphQL",
+    alt: "GraphQL",
+  },
+  {
+    imageUrl:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+    title: "AWS",
+    alt: "AWS",
+  },
 ];
 
 export { dataSet, SocialLinks };

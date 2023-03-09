@@ -1,5 +1,4 @@
-import { Fade } from "react-awesome-reveal";
-import CardProjects from "./Components/CardProjects";
+import Projects from "./Components/Projects";
 import Header from "./Components/Header";
 import Profile from "./Components/Profile";
 import ProfileAndTechSection from "./Components/ProfileAndTechSection";
@@ -12,7 +11,7 @@ function App() {
       <ProfileAndTechSection>
         <Profile />
         <Techs />
-        <CardProjects />
+        <Projects />
       </ProfileAndTechSection>
     </>
   );

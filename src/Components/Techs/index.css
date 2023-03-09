@@ -1,11 +1,14 @@
 .strip {
   width: 100%;
-  height: 200px;
-  margin-top: 5rem;
+  height: auto;
+  margin-top: 3rem;
 
   display: flex;
   flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
+  padding: 1rem;
 
   background-color: var(--raisin-black);
 }
@@ -15,32 +18,53 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .techTitle > h1 {
+  font-size: 1.6rem;
+  font-weight: 400;
   color: var(--saffron-weak);
-}
-
-.dataImgContainer {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column nowrap;
-  gap: 0.5rem;
 }
 
 .columnContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
   align-items: center;
-  justify-content: space-around;
-  flex-flow: row nowrap;
+  width: 80%;
+  gap: 4rem;
+
 }
+
+.dataImgContainer {
+  width: 100%;
+  gap: 0.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
 .dataImgContainer > svg,img {
-  width: 64px;
+  width: 80px;
+  height: 80px;
+  transition: 0.35s;
 }
 
 .dataImgContainer > p {
+  transition: 0.35s;
   color: var(--saffron-weak);
+}
+
+.dataImgContainer > svg:hover,img:hover {
+  transform: scale(1.15);
+  transition: 0.35s;
+}
+
+.dataImgContainer > p:hover {  
+  transform: scale(1.15);
+  transition: 0.35s;
 }
