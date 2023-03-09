@@ -1,13 +1,14 @@
 import "./index.css";
+import ProjectsCards from "./ProjectsCards";
 
 function Projects() {
   return (
     <>
-      <section className="projectsSection">
-        <h2>Projetos: </h2>
-        <div className="projectsContainer">
-          <h4>teeeest</h4>
-        </div>
+      <div className="outerHeaderTitleContainer">
+        <h2 className="outerHeaderTitle">Projetos: </h2>
+      </div>
+      <section className="projectContainerBox">
+        <ProjectsCards />
       </section>
     </>
   );

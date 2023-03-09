@@ -7,7 +7,7 @@ function Techs() {
     <>
       <section className="strip">
         <div className="techTitle">
-          <h1>Techs: </h1>
+          <h1>Tecnologias: </h1>
         </div>
         <div className="columnContainer">
           <Fade big cascade damping={0.1}>

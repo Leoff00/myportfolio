@@ -1,5 +1,5 @@
 import "./index.css";
-import me from "../../assets/me.png";
+import me from "@/assets/me.png";
 import { Fade } from "react-awesome-reveal";
 
 function Profile() {

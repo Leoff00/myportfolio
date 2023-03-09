@@ -22,9 +22,9 @@
 }
 
 .techTitle > h1 {
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: var(--saffron-weak);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--saffron-plus-weak);
 }
 
 .columnContainer {
@@ -32,7 +32,7 @@
   justify-content: center;
   align-items: center;  
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   justify-items: center;
   align-items: center;
   width: 80%;
