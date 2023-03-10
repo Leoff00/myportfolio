@@ -41,6 +41,7 @@
 }
 
 .dataImgContainer {
+
   width: 100%;
   gap: 0.5rem;
   display: flex;
@@ -55,6 +56,7 @@
 }
 
 .dataImgContainer > p {
+  text-align: center;  
   transition: 0.35s;
   color: var(--saffron-weak);
 }

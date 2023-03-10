@@ -63,7 +63,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
     description: `
       Responsável tanto pelo front quanto pelo backend de uma plataforma de cursos online, onde o cliente se cadastrava tanto como professor/instrutor tanto como aluno para assistir as aulas.
     `,
-    repoLink: "privado",
+    repoLink: "Privado",
     repoIcon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
@@ -80,7 +80,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
     description: `
     Aplicação que consistia em ler corpo e arquivos de uma requisição enviada para o cliente e devolver uma estrutura de pastas com o template e padrão TMForum, com integração e 
     deploy contínuo (CI/CD) com Jenkins, hospedada no EC2 da aws, para a empresa Claro Brasil.`,
-    repoLink: "privado",
+    repoLink: "Privado",
     repoIcon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
@@ -103,7 +103,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       Criação de times
       Criação e recursos de rotas de administrador.
     `,
-    repoLink: "privado",
+    repoLink: "Privado",
     repoIcon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
@@ -131,7 +131,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
     ],
-    projectTitle: "Aplicação de Votação - Backend",
+    projectTitle: "App de Votação - Backend",
     alt: "Icones de tecnologia",
     description: `
       Este projeto consiste num estudo de arquitetura limpa, 
@@ -174,8 +174,8 @@ const dataSet: Array<TechsProps> = [
   {
     imageUrl:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-    title: "Firebase",
-    alt: "Firebase",
+    title: "Google Firebase",
+    alt: "Google Firebase",
   },
   {
     imageUrl:
@@ -212,8 +212,8 @@ const dataSet: Array<TechsProps> = [
   {
     imageUrl:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
-    title: "Postgres",
-    alt: "Postgres",
+    title: "PostgresSQL",
+    alt: "PostgresSQL",
   },
   {
     imageUrl:

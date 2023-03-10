@@ -9,7 +9,7 @@ interface ReactChildProps {
 function ProfileAndTechsSection({ children }: ReactChildProps) {
   return (
     <div className="profileAndTechsSection">
-      <Fade cascade damping={0.15}>
+      <Fade cascade damping={0.05}>
         {children}
       </Fade>
     </div>

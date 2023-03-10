@@ -8,7 +8,7 @@ function ProjectsCards() {
         <div key={index} className="projectContainer">
           <div className="projectHeaderContainer">
             <h3 className="projectTitle">{data.projectTitle}</h3>
-            <h4>Ferramentas utilizadas: </h4>
+            <p>Ferramentas utilizadas: </p>
             <div key={index} className="projectsIconsContainer">
               {data.iconUrl?.map((img, index) => (
                 <img key={index} id="projectsIcon" src={img} alt={data.alt} />
@@ -18,7 +18,7 @@ function ProjectsCards() {
           <div className="projectsBodyContainer">
             <p>{data.description}</p>
             <div className="projectsFooterContainer">
-              {data.repoLink === "privado" ? (
+              {data.repoLink === "Privado" ? (
                 <>
                   <p>Link do repositório: </p>
                   <p>{data.repoLink} 🚫</p>

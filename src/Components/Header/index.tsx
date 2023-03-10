@@ -4,7 +4,7 @@ import mailbox from "../../assets/icons/mailbox.png";
 
 function Header() {
   return (
-    <header>
+    <header id="Header">
       <section className="emailSection">
         <div className="mailboxCircle">
           <img src={mailbox} alt="mailbox" />
