@@ -5,15 +5,15 @@ import mailbox from "../../assets/icons/mailbox.png";
 function Header() {
   return (
     <header id="Header">
-      <section className="emailSection">
+      <div className="emailSection">
         <div className="mailboxCircle">
           <img src={mailbox} alt="mailbox" />
         </div>
         <a href="mailto:leoferreiracontatos@gmail.com">
           leoferreiracontatos@gmail.com
         </a>
-      </section>
-      <section className="linkSection">
+      </div>
+      <nav className="linkSection">
         <a href={SocialLinks.linkedin} aria-hidden="false" target="_blank">
           Linkedin
         </a>
@@ -25,7 +25,7 @@ function Header() {
         <a href={SocialLinks.discord} aria-hidden="false" target="_blank">
           Discord
         </a>
-      </section>
+      </nav>
     </header>
   );
 }

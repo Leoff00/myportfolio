@@ -16,7 +16,7 @@ function ProjectsCards() {
             </div>
           </div>
           <div className="projectsBodyContainer">
-            <p>{data.description}</p>
+            <p className="projectBodyDesc">{data.description}</p>
             <div className="projectsFooterContainer">
               {data.repoLink === "Privado" ? (
                 <>

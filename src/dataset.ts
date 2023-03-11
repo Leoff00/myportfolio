@@ -40,8 +40,8 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
     ],
     projectTitle: "E-wallet Transctions - Backend",
     alt: "Icones de tecnologia",
-    description: `Aplicação que consiste em dois microsserviços integrados entre uma base de dados de usuarios e uma base de dados de 
-      transações, onde o usuário poderia fazer livres transações de credito e debito de forma independente e desacoplada.`,
+    description: `Aplicação que consiste em dois microsserviços integrados com base de dados distintas, onde o 
+    usuário poderia fazer livres transações de credito e debito de forma independente e desacoplada.`,
     repoLink: "https://github.com/Leoff00/ilia-nodejs-challenge",
     repoIcon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
@@ -61,7 +61,9 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
     projectTitle: "Plataforma de cursos - Fullstack (Freelancer)",
     alt: "Icones de tecnologia",
     description: `
-      Responsável tanto pelo front quanto pelo backend de uma plataforma de cursos online, onde o cliente se cadastrava tanto como professor/instrutor tanto como aluno para assistir as aulas.
+      Responsável tanto pelo front quanto pelo backend de uma plataforma de 
+      cursos online, onde o cliente se cadastra tanto como professor/instrutor quanto aluno 
+      para assistir as video-aulas e também cadastrar uma nova video-aula.
     `,
     repoLink: "Privado",
     repoIcon:

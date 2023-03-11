@@ -5,9 +5,16 @@ function Footer() {
     <>
       <footer className="portfolioFooter">
         <div className="footerTextContainer">
-          <p>2023 | Leonardo Ferreira - Todos os direitos reservados © </p>
+          <p>Leonardo Ferreira | Copyright © 2023</p>
         </div>
+        <div className="separator"></div>
         <div className="footerLinkContainer">
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1pNlBnpCeJnfFU_B-C14grtygdaKO54N4/view?usp=sharing"
+          >
+            Meu currículo
+          </a>
           <a href="#Header">Voltar ao topo</a>
         </div>
       </footer>

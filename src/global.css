@@ -1,11 +1,12 @@
 :root {
-  --saffron: #EEC643;
+  --saffron: #eec643;
   --saffron-weak: #e6d089;
   --saffron-plus-weak: #e6d9b0;
   --raisin-black-weak: #252525;
+  --raisin-black-plus-weak: #353535;
   --raisin-black: #2e2e2e;
   --raisin-black-strong: #202020;
-  --auto-flashed-white: #EEF0F2;
+  --auto-flashed-white: #eef0f2;
   --auto-flashed-white-weak: #d3d3d3;
 }
 
@@ -21,6 +22,22 @@
   font-weight: 300;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
 
+::-webkit-scrollbar-thumb {
+  background: var(--saffron);
+  transition: 1s;
+  border-radius: 8px;
+}
 
+::-webkit-scrollbar-thumb:hover {
+  background: var(--saffron-weak);
+  transition: 1s;
+}
