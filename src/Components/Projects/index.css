@@ -140,7 +140,7 @@ svg {
   }
 
   .projectsIconsContainer {
-    width: 64%;
+    max-width: 64%;
     height: 100%;
     margin-top: 0.4rem;
     display: grid;
@@ -152,8 +152,9 @@ svg {
   }
 
   #projectsIcon {
-    width: 80%;
-    height: 80%;
+    max-width: 80%;
+    max-height: 80%;
+    object-position: 8%;
   }
 
   .projectsBodyContainer {
