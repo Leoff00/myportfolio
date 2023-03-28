@@ -1,12 +1,8 @@
-name: Deploy to S3
+name: S3 Deploy
 on: [push]
-
 jobs:
   run:
     runs-on: ubuntu-latest
-    env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
         - uses: actions/checkout@v3
 
@@ -17,9 +13,11 @@ jobs:
           run: yarn build
 
         - name: Deploy
-          uses: reggionick/s3-deploy@v3
+          uses: keithweaver/aws-s3-github-action@v1.0.0
           with:
-            folder: dist
-            bucket: ${{ secrets.S3_BUCKET }}
-            bucket-region: ${{ secrets.S3_BUCKET_REGION }}
-            no-cache: true
+              command: cp
+              source: ./dist
+              destination: ${{ secrets.S3_URI }}
+              aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+              aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+              aws_region: us-east-1
