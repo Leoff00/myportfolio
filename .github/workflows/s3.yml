@@ -1,24 +1,27 @@
-name: Deploy to S3
-on: [push]
+name: Upload to s3
+on:
+  push:
+    branches:
+    - main
 
 jobs:
-  run:
+  deploy:
     runs-on: ubuntu-latest
-    env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
-        - uses: actions/checkout@v3
+    - uses: actions/checkout@master
 
-        - name: Install dependencies
-          run: yarn
+    - name: Install dependencies
+      run: yarn
 
-        - name: Build
-          run: yarn build
-
-        - name: Deploy
-          uses: reggionick/s3-deploy@v3
-          with:
-            folder: dist
-            bucket: ${{ secrets.S3_BUCKET }}
-            bucket-region: ${{ secrets.S3_BUCKET_REGION }}
+    - name: Build
+      run: yarn build
+      
+    - uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read --follow-symlinks --delete
+      env:
+        AWS_S3_BUCKET: ${{ secrets.S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: ${{ secrets.S3_BUCKET_REGION  }}   
+        DEST_DIR: 'dist'
