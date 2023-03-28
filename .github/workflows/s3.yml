@@ -13,7 +13,7 @@ jobs:
           run: yarn build
 
         - name: Deploy
-          uses: keithweaver/aws-s3-github-action@main
+          uses: keithweaver/aws-s3-github-action@v1.0.0
           with:
               command: cp
               source: ./dist
