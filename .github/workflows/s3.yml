@@ -10,7 +10,7 @@ jobs:
           run: yarn
 
         - name: Build
-          run: yarn build
+          run: yarn build && pwd
 
         - name: Deploy
           uses: keithweaver/aws-s3-github-action@v1.0.0
