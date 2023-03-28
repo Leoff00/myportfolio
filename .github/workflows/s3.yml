@@ -22,4 +22,3 @@ jobs:
             folder: dist
             bucket: ${{ secrets.S3_BUCKET }}
             bucket-region: ${{ secrets.S3_BUCKET_REGION }}
-            no-cache: true
