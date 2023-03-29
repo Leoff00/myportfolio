@@ -1,11 +1,16 @@
 name: S3 Deploy
-
 on: [push]
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v3
+
+          name: install dependencies
+        - run: yarn 
+
+          name: build static 
+        - run: yarn build
 
         - name: Deploy
           uses: keithweaver/aws-s3-github-action@v1.0.0
