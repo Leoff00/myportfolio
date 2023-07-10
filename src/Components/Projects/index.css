@@ -102,6 +102,7 @@ svg {
   padding: 0.3rem;
   width: 56px;
   height: 56px;
+  object-fit: scale-down;
 }
 
 /* Media Queries */

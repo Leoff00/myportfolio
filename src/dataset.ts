@@ -1,4 +1,5 @@
 import expressjs from "@/assets/techs/expressjs.svg";
+import fyne from "@/assets/techs/fyne.png";
 import nextjs from "@/assets/techs/nextjs.svg";
 import discordgo from "@/assets/techs/discordgo.svg";
 
@@ -35,10 +36,29 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
       expressjs,
+      "https://img.icons8.com/color/48/google-cloud.png",
+    ],
+    projectTitle: "Lottery Vizo Dev (Freelancer)",
+    alt: "Icones de tecnologia",
+    description: `
+    Projeto freelance que participei na parte de backend, fui responsável 
+    por implementar a funcionalidade de integração de pagamentos via PIX e cartões
+    de credito utilizando Serverless um aplicativo de sorteios contratado 
+    pela empresa Vizo Dev. 
+    `,
+    repoLink: "Privado",
+    repoIcon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+  },
+  {
+    iconUrl: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+      expressjs,
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
     ],
-    projectTitle: "E-wallet Transctions - Backend",
+    projectTitle: "E-wallet Transctions",
     alt: "Icones de tecnologia",
     description: `Aplicação que consiste em dois microsserviços integrados com base de dados distintas, onde o 
     usuário poderia fazer livres transações de credito e debito de forma independente e desacoplada.`,
@@ -58,7 +78,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
     ],
-    projectTitle: "Plataforma de cursos - Fullstack (Freelancer)",
+    projectTitle: "Plataforma de cursos (Freelancer)",
     alt: "Icones de tecnologia",
     description: `
       Responsável tanto pelo front quanto pelo backend de uma plataforma de 
@@ -77,7 +97,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
     ],
-    projectTitle: "Gerador de template APIGEE para Claro Brasil - Backend",
+    projectTitle: "Gerador de template APIGEE para Claro Brasil",
     alt: "Icones de tecnologia",
     description: `
     Aplicação que consistia em ler corpo e arquivos de uma requisição enviada para o cliente e devolver uma estrutura de pastas com o template e padrão TMForum, com integração e 
@@ -94,11 +114,11 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
     ],
-    projectTitle: "Olebet apostas - Backend (Freelancer)",
+    projectTitle: "Olebet apostas (Freelancer)",
     alt: "Icones de tecnologia",
     description: `
-      Aplicação construida para fazer apostas com o intuito de recreação, ou seja, não 
-      há transferencias bancárias. Responsável por implementar funcionalidades como: 
+      Aplicação construida para fazer apostas. 
+      Responsável por implementar funcionalidades como: 
       Fazer apostas,
       Buscar jogos disponiveis,
       Criar apostas,
@@ -115,7 +135,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       discordgo,
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
     ],
-    projectTitle: "Diego BOT - Backend ",
+    projectTitle: "Diego BOT ",
     alt: "Icones de tecnologia",
     description: `
     Bot de discord 100% interativo feito em Golang, utilizando a biblioteca
@@ -130,19 +150,33 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
   },
   {
     iconUrl: [
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
+      fyne,
     ],
-    projectTitle: "App de Votação - Backend",
+    projectTitle: "Gofastypo",
     alt: "Icones de tecnologia",
     description: `
-      Este projeto consiste num estudo de arquitetura limpa, 
-      design patterns, TDD e boas práticas de programação para minha
-      melhoria continua no backend, se trata de uma aplicação de votação,
-      onde o usuário possui 10 votos iniciais e dado uma competição, caso ocorra
-      o usuário pode votar 10 vezes em 1 ou vários competidores. 
+     Projeto feito por mim em Golang utilizando o fyne toolkit, um framework
+     para construção de app desktop GUI e mobile, construi uma especie de clone 
+     minificado do http://www.typingtest.com que é um medidor de palavras por digitadas 
+     por minuto (wpm). 
     `,
-    repoLink: "https://github.com/Leoff00/clean-arch-vote-vote",
+    repoLink: "https://github.com/Leoff00/gofastypo",
+    repoIcon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+  },
+  {
+    iconUrl: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
+    ],
+    projectTitle: "Gocheckitout",
+    alt: "Icones de tecnologia",
+    description: `
+     Aplicação construida para medir a performance da linguagem, esta aplicação
+     consegue fazer 50 requisições simultaneas dado uma entrada de dados com 
+     as URLS e processa uma saída retornando o status code das mesmas. 
+    `,
+    repoLink: "https://github.com/Leoff00/gocheckitout",
     repoIcon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
@@ -214,8 +248,8 @@ const dataSet: Array<TechsProps> = [
   {
     imageUrl:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
-    title: "PostgresSQL",
-    alt: "PostgresSQL",
+    title: "PostgreSQL",
+    alt: "PostgreSQL",
   },
   {
     imageUrl:
@@ -240,6 +274,11 @@ const dataSet: Array<TechsProps> = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
     title: "AWS",
     alt: "AWS",
+  },
+  {
+    imageUrl: "https://img.icons8.com/color/48/google-cloud.png",
+    title: "Google Cloud Platform",
+    alt: "Google Cloud Platform",
   },
 ];
 
