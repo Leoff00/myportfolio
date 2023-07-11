@@ -158,7 +158,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
     description: `
      Projeto feito por mim em Golang utilizando o fyne toolkit, um framework
      para construção de app desktop GUI e mobile, construi uma especie de clone 
-     minificado do http://www.typingtest.com que é um medidor de palavras por digitadas 
+     minificado do http://www.typingtest.com que é um medidor de palavras digitadas 
      por minuto (wpm). 
     `,
     repoLink: "https://github.com/Leoff00/gofastypo",
