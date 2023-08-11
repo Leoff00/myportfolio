@@ -55,14 +55,31 @@ h4:hover {
 }
 
 .avatarSection > img {
+  aspect-ratio: 1;
+  object-fit: cover;
   margin-top: 1rem;
   border-radius: 999px;
   padding: 1.8px;
   width: 40%;
   height: 40%;
-  object-fit: cover;
   border: 3px solid var(--saffron-weak);
   transition: 0.35s;
+  animation: profileImg 1.5s infinite;
+  
+}
+
+@keyframes profileImg {
+  0% {
+    transform: translateY(-4%);
+  }
+
+  50% {
+    transform: translateY(4%);
+  }
+
+  100% {
+    transform: translateY(-4%);
+  }
 }
 
 /* Media queries */
