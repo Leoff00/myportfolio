@@ -11,7 +11,7 @@ function Footer() {
         <div className="footerLinkContainer">
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1id2RXKF52D0NgWX1PmO0R2kg9OmaRsoQ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1sLyt0xpxAekgMD8BwNeStdLyjDRiHNwm/view?usp=sharing"
           >
             Meu currículo
           </a>
