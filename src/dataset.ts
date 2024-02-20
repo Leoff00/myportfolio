@@ -95,7 +95,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
       expressjs,
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
     ],
     projectTitle: "Gerador de template APIGEE para Claro Brasil",
     alt: "Icones de tecnologia",
@@ -133,7 +133,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
     iconUrl: [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
       discordgo,
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
     ],
     projectTitle: "Diego BOT ",
     alt: "Icones de tecnologia",
@@ -271,7 +271,7 @@ const dataSet: Array<TechsProps> = [
   },
   {
     imageUrl:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
     title: "AWS",
     alt: "AWS",
   },
