@@ -72,7 +72,7 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
       nextjs,
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg",
@@ -223,7 +223,7 @@ const dataSet: Array<TechsProps> = [
   { imageUrl: expressjs, title: "ExpressJS", alt: "ExpressJS" },
   {
     imageUrl:
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
     title: "NestJS",
     alt: "NestJS",
   },
