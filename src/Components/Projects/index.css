@@ -13,14 +13,14 @@
 }
 
 .projectContainerBox {
-  width: 64%;
+  width: 80%;
   margin: 1rem auto auto auto;
 
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: space-around;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .projectContainer {

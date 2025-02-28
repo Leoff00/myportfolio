@@ -52,17 +52,32 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
   },
   {
     iconUrl: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original-wordmark.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
+    ],
+    projectTitle: "Asap Card Hackathon",
+    alt: "Icones de tecnologia",
+    description: `Aplicação ETL feita para processar mais de 100 mil registros em um csv e salvar em um banco de dados num evento
+    Hackathon para a Asap Card, uma processadora de cartões.`,
+    repoLink: "https://github.com/Leoff00/asapcard-hackaton-charizard",
+    repoIcon:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+  },
+  {
+    iconUrl: [
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
       expressjs,
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     ],
-    projectTitle: "E-wallet Transctions",
+    projectTitle: "Instacarro",
     alt: "Icones de tecnologia",
-    description: `Aplicação que consiste em dois microsserviços integrados com base de dados distintas, onde o 
-    usuário poderia fazer livres transações de credito e debito de forma independente e desacoplada.`,
-    repoLink: "https://github.com/Leoff00/ilia-nodejs-challenge",
+    description: `Aplicação de gestão de leilão de carros ou automóveis feita para o desafio técnico da empresa Instacarro.`,
+    repoLink: "https://github.com/Leoff00/instacarro",
     repoIcon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
@@ -135,16 +150,14 @@ const projectsCardsSet: Array<ProjectsCardsProps> = [
       discordgo,
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
     ],
-    projectTitle: "Diego BOT ",
+    projectTitle: "TA PAGO! Bot",
     alt: "Icones de tecnologia",
     description: `
     Bot de discord 100% interativo feito em Golang, utilizando a biblioteca
-    Discordgo, que faz a integração direta com a API do discord, este Bot tem
-    implementado os seguintes comandos: 
-    Busca de imagens, limpeza de chat, menção de membros, contador de usuários, etc.
-    Esta app também possui CI/CD e esta hospedado no EC2 com Autoscaling.
+    Discordgo, que faz a integração direta com a API do discord que tem o propósito de
+    trackear e registrar os treinos e exercicios dos membros do discord.
     `,
-    repoLink: "https://github.com/Leoff00/go-diego-bot",
+    repoLink: "https://github.com/Leoff00/ta-pago-bot",
     repoIcon:
       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
   },
